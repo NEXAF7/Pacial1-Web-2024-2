@@ -9,8 +9,8 @@ import './App.css';
 function App() {
   return (
   <Container fluid>
-    {/*<Home />*/}
-    <Perfil />
+    <Home />
+    {/*<Perfil />*/}
     {/*<DetallePost />*/}
   </Container>
   );

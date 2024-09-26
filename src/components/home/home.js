@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import foto from '../../images/flor.jpg';
-//import fotos from URL("https://fastly.picsum.photos/id/365/350/350.jpg?hmac=x5kf75e2o0cmDepd0N8ZhaihsVmYbMITEWiynkJJB3k");
+import foto1 from '../../images/flor.jpg';
+import foto2 from '../../images/Image1.jpg';
+import foto3 from '../../images/Image2.jpg';
+import foto4 from '../../images/Image3.jpg';
+import foto5 from '../../images/Image4.jpg';
+import foto6 from '../../images/Image5.jpg';
 
 const Home = () => {
     return (
@@ -14,7 +18,7 @@ const Home = () => {
             <Col>
             <br></br>
             <image style={{height:"25vh",
-                    backgroundImage:`url(${foto})`,
+                    backgroundImage:`url(${foto1})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
                     marginLeft:"45vh", marginTop:"8vh",
@@ -60,12 +64,59 @@ const Home = () => {
             <br></br>
             <br></br>
             <br></br>
-            <image style={{height:"20vh",
-                    backgroundImage:`url(${foto})`,
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto1})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
                     marginLeft:"40vh", marginTop:"45vh",
-                    width:"10%", zIndex: 1,
+                    width:"350px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"92vh", marginTop:"45vh",
+                    width:"350px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"144vh", marginTop:"45vh",
+                    width:"350px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <br></br>
+            <br></br>
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto4})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"40vh", marginTop:"97vh",
+                    width:"350px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto5})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"92vh", marginTop:"97vh",
+                    width:"350px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"350px",
+                    backgroundImage:`url(${foto6})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"144vh", marginTop:"97vh",
+                    width:"350px", zIndex: 1,
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>
