@@ -318,14 +318,14 @@ const Home = () => {
                 <text style={{marginTop:"1", marginLeft:"20vh", fontSize:"40px", color:"white"}}>
                     Escobar
                 </text>
-                <text style={{marginTop:"2vh", marginLeft:"30vh", fontSize:"40px", color:"white"}}>
-                    1:05
+                <text style={{marginTop:"2vh", marginLeft:"15vh", fontSize:"40px", color:"white"}}>
+                    Running = 1:05
                 </text>
-                <text style={{marginTop:"2vh", marginLeft:"40vh", fontSize:"40px", color:"#8C8F92"}}>
-                    1:05
+                <text style={{marginTop:"2vh", marginLeft:"15vh", fontSize:"40px", color:"white"}}>
+                    Swimming = 1:05
                 </text>
-                <text style={{marginTop:"2vh", marginLeft:"40vh", fontSize:"40px", color:"#8C8F92"}}>
-                    1:05
+                <text style={{marginTop:"2vh", marginLeft:"15vh", fontSize:"40px", color:"white"}}>
+                    Cycling = 1:05
                 </text>
                 </Col>
             </Row>           
