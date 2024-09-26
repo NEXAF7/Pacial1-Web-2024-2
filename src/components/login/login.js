@@ -21,12 +21,12 @@ const Login = () => {
                     marginLeft:"50vh", marginRight:"50vh", borderRadius: "5px",
                 }}> 
             <Col>
-            <image style={{height:"60px",
+            <image style={{height:"42px",
                     backgroundImage:`url(${ojo})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
-                    marginLeft:"142vh", marginTop:"72vh",
-                    width:"100px", zIndex: 2,
+                    marginLeft:"145vh", marginTop:"515px",
+                    width:"70px", zIndex: 2,
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>

@@ -2,128 +2,333 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import foto1 from '../../images/flor.jpg';
-import foto2 from '../../images/Image1.jpg';
-import foto3 from '../../images/Image2.jpg';
-import foto4 from '../../images/Image3.jpg';
-import foto5 from '../../images/Image4.jpg';
-import foto6 from '../../images/Image5.jpg';
+import foto1 from '../../images/cycling.jpg';
+import foto2 from '../../images/running.jpg';
+import foto3 from '../../images/swimming.jpg';
+import foto4 from '../../images/flor.jpg';
 
 const Home = () => {
     return (
         <Container fluid>
-            <Row style={{height:"150vh", backgroundColor:"white", marginTop:"5vh",
-                    marginLeft:"30vh", marginRight:"30vh", borderRadius: "15px",
+            <Row style={{height:"123vh", backgroundColor:"white",
+                    marginLeft:"5vh", marginRight:"30vh", borderRadius: "15px",
                 }}> 
             <Col>
-            <br></br>
-            <image style={{height:"25vh",
+            <text style={{marginTop:"1vh", marginLeft:"17vh", fontSize:"40px", color:"black"}}>
+                Cycling
+            </text>
+            <text style={{marginTop:"1vh", marginLeft:"50vh", fontSize:"40px", color:"black"}}>
+                Running
+            </text>
+            <text style={{marginTop:"1vh", marginLeft:"45vh", fontSize:"40px", color:"black"}}>
+                Swimming
+            </text>
+            <image style={{height:"153px",
                     backgroundImage:`url(${foto1})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
-                    marginLeft:"45vh", marginTop:"8vh",
-                    width:"12%", zIndex: 1,
-                    position:"absolute", borderRadius: "50%",
-                    top: 0, left: 0,}}>
-            </image>
-            <text style={{marginTop:"1vh", marginLeft:"47vh", fontSize:"40px", color:"black"}}>
-                Username
-            </text>
-            <br></br>
-            <text style={{marginTop:"1vh", marginLeft:"47vh", fontSize:"20px", color:"black", fontWeight:"bold"}}>
-                Firstname Lastname
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"1vh", fontSize:"20px", color:"black"}}>
-                Proin at laculis arcu. Proin id mi id dolor aliquet facilisis
-            </text>
-            <br></br>
-            <text style={{marginTop:"1vh", marginLeft:"47vh", fontSize:"20px", color:"black"}}>
-                website.com
-            </text>
-            <br></br>
-            <br></br>
-            <text style={{marginTop:"1vh", marginLeft:"47vh", fontSize:"20px", color:"black", fontWeight:"bold"}}>
-                870
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"1vh", fontSize:"20px", color:"black"}}>
-                posts
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"4vh", fontSize:"20px", color:"black", fontWeight:"bold"}}>
-                496
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"1vh", fontSize:"20px", color:"black"}}>
-                followers
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"4vh", fontSize:"20px", color:"black", fontWeight:"bold"}}>
-                112
-            </text>
-            <text style={{marginTop:"1vh", marginLeft:"1vh", fontSize:"20px", color:"black"}}>
-                following
-            </text>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <image style={{height:"350px",
-                    backgroundImage:`url(${foto1})`,
-                    backgroundSize:"cover",
-                    backgroundPosition:"center",
-                    marginLeft:"40vh", marginTop:"45vh",
-                    width:"350px", zIndex: 1,
+                    marginLeft:"3vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>
-            <image style={{height:"350px",
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"37vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
                     backgroundImage:`url(${foto2})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
-                    marginLeft:"92vh", marginTop:"45vh",
-                    width:"350px", zIndex: 1,
+                    marginLeft:"73vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>
-            <image style={{height:"350px",
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"107vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
                     backgroundImage:`url(${foto3})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
-                    marginLeft:"144vh", marginTop:"45vh",
-                    width:"350px", zIndex: 1,
+                    marginLeft:"143vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>
-            <br></br>
-            <br></br>
-            <image style={{height:"350px",
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"177vh", marginTop:"9vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"3vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"37vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"73vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"107vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"143vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"177vh", marginTop:"32vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"3vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"37vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"73vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"107vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"143vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"177vh", marginTop:"55vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"3vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"37vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"73vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"107vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"143vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"177vh", marginTop:"78vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"3vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto1})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"37vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"73vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto2})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"107vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"143vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+            <image style={{height:"153px",
+                    backgroundImage:`url(${foto3})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"177vh", marginTop:"101vh",
+                    width:"230px", zIndex: 1,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
+                
+            <image style={{height:"18vh",
                     backgroundImage:`url(${foto4})`,
                     backgroundSize:"cover",
                     backgroundPosition:"center",
-                    marginLeft:"40vh", marginTop:"97vh",
-                    width:"350px", zIndex: 1,
-                    position:"absolute",
+                    marginLeft:"5vh", marginTop:"125vh",
+                    width:"8%", zIndex: 1,
+                    position:"absolute", borderRadius: "50%",
                     top: 0, left: 0,}}>
             </image>
-            <image style={{height:"350px",
-                    backgroundImage:`url(${foto5})`,
-                    backgroundSize:"cover",
-                    backgroundPosition:"center",
-                    marginLeft:"92vh", marginTop:"97vh",
-                    width:"350px", zIndex: 1,
-                    position:"absolute",
-                    top: 0, left: 0,}}>
-            </image>
-            <image style={{height:"350px",
-                    backgroundImage:`url(${foto6})`,
-                    backgroundSize:"cover",
-                    backgroundPosition:"center",
-                    marginLeft:"144vh", marginTop:"97vh",
-                    width:"350px", zIndex: 1,
-                    position:"absolute",
-                    top: 0, left: 0,}}>
-            </image>
-            <br></br>
-            <br></br>
             </Col>
             </Row>
+            <Row style={{height:"20vh", backgroundColor:"#2E3338", marginTop:"1vh"}}>             
+                <Col>
+                <text style={{marginTop:"1vh", marginLeft:"20vh", fontSize:"40px", color:"white"}}>
+                    Camilo
+                </text>
+                <br></br>
+                <text style={{marginTop:"1", marginLeft:"20vh", fontSize:"40px", color:"white"}}>
+                    Escobar
+                </text>
+                <text style={{marginTop:"2vh", marginLeft:"30vh", fontSize:"40px", color:"white"}}>
+                    1:05
+                </text>
+                <text style={{marginTop:"2vh", marginLeft:"40vh", fontSize:"40px", color:"#8C8F92"}}>
+                    1:05
+                </text>
+                <text style={{marginTop:"2vh", marginLeft:"40vh", fontSize:"40px", color:"#8C8F92"}}>
+                    1:05
+                </text>
+                </Col>
+            </Row>           
         </Container>
     );
 };
