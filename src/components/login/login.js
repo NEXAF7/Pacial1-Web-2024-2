@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import fondo from '../../images/fondoLogin.jpg';
+import ojo from '../../images/Ojo.png';
 
 const Login = () => {
     return (
@@ -20,6 +21,15 @@ const Login = () => {
                     marginLeft:"50vh", marginRight:"50vh", borderRadius: "5px",
                 }}> 
             <Col>
+            <image style={{height:"60px",
+                    backgroundImage:`url(${ojo})`,
+                    backgroundSize:"cover",
+                    backgroundPosition:"center",
+                    marginLeft:"142vh", marginTop:"72vh",
+                    width:"100px", zIndex: 2,
+                    position:"absolute",
+                    top: 0, left: 0,}}>
+            </image>
             <br></br>
             <text style={{marginTop:"1vh", marginLeft:"2vh", fontSize:"50px", color:"black",  fontWeight:"bold"}}>
                 Log in
@@ -41,7 +51,6 @@ const Login = () => {
             <text style={{marginTop:"1vh", marginLeft:"2vh", fontSize:"20px", color:"black"}}>
                 Password
             </text>
-            <br></br>
             <input style={{borderColor:"black", height:"10vh",
                 width:"100vh", marginTop:"2px", marginBottom:"10px",
                 marginLeft:"2vh", borderWidth:"2px", 
@@ -57,6 +66,7 @@ const Login = () => {
                     borderColor:"blue", borderWidth:"2px",
                     borderStyle: "solid", marginRight:"3vh",
                     borderRadius: "5px"}}>Log In</button>
+        <br></br>
             </Col>
             </Row>
         </Container>
