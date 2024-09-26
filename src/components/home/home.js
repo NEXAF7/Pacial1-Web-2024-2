@@ -12,7 +12,7 @@ import foto6 from '../../images/Image5.jpg';
 const Home = () => {
     return (
         <Container fluid>
-            <Row style={{height:"115vh", backgroundColor:"white", marginTop:"5vh",
+            <Row style={{height:"150vh", backgroundColor:"white", marginTop:"5vh",
                     marginLeft:"30vh", marginRight:"30vh", borderRadius: "15px",
                 }}> 
             <Col>
@@ -120,6 +120,8 @@ const Home = () => {
                     position:"absolute",
                     top: 0, left: 0,}}>
             </image>
+            <br></br>
+            <br></br>
             </Col>
             </Row>
         </Container>
