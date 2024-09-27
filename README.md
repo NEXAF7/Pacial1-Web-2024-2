@@ -33,7 +33,11 @@ El desarrollo de este Parcial se basó en el PreParcial y los retos del Quiz Sor
 
 Fotos del Preparcial y Quiz Sorpresa como ejemplo:
 
+Quiz Sorpresa:
+
 ![Bonito](https://github.com/user-attachments/assets/debf0d9a-703d-42aa-9074-ace616086d9b)
+
+PreParcial:
 
 ![Web](https://github.com/user-attachments/assets/2f4cf4b6-2eb9-4666-acd1-edea683fad95)
 
