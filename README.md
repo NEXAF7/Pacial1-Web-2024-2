@@ -29,4 +29,6 @@ Después de tener el componente configurado en el archivo recomiendo encarecidam
 Al ejecutar esos 3 comandos se abrirá una pestaña en su navegador para apreciar el resultado del Parcial
 [http://localhost:3000](http://localhost:3000)
 
+El desarrollo de este Parcial se basó en el PreParcial y los retos del Quiz Sorpresa
+
 Hecho por: Juan Manuel Ramírez Tamayo - 202013256
