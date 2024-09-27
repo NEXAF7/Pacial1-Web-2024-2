@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import fondo from '../../images/fondoLogin.jpg';
 import ojo from '../../images/Ojo.png';
 
-const Login = () => {
+const LoginESP = () => {
     return (
         <Container fluid>
             <Row style={{height:"150vh",
@@ -32,13 +32,13 @@ const Login = () => {
             </image>
             <br></br>
             <text style={{marginTop:"1vh", marginLeft:"2vh", fontSize:"50px", color:"black",  fontWeight:"bold"}}>
-                Log in
+                Acceder
             </text>
             <br></br>
             <br></br>
             <br></br>
             <text style={{marginTop:"1vh", marginLeft:"2vh", fontSize:"20px", color:"black"}}>
-                Email
+                Correo
             </text>
             <br></br>
             <input style={{borderColor:"black", height:"10vh",
@@ -49,7 +49,7 @@ const Login = () => {
                 </input>
             <br></br>
             <text style={{marginTop:"1vh", marginLeft:"2vh", fontSize:"20px", color:"black"}}>
-                Password
+                Contraseña
             </text>
             <input style={{borderColor:"black", height:"10vh",
                 width:"100vh", marginTop:"2px", marginBottom:"10px",
@@ -65,7 +65,7 @@ const Login = () => {
                     fontSize:"30px",  color:"white",
                     borderColor:"blue", borderWidth:"2px",
                     borderStyle: "solid", marginRight:"3vh",
-                    borderRadius: "5px"}}>Log In</button>
+                    borderRadius: "5px"}}>Acceder</button>
         <br></br>
             </Col>
             </Row>
@@ -73,4 +73,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default LoginESP;
